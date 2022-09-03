@@ -1,1 +1,82 @@
 
+
+#  Classe Math
+
+##  Definição
+O método .Math da linguagem Java trás consigo uma grande gama de funções matemáticas para serem aplicadas dentro do código
+
+## Principais operações
+
+Suas principais funções são:
+- Sin (seno):
+
+```java
+double resu= Math.sin(0);
+System.out.println("seno de 0 é "+ resu);
+
+Resultado:
+seno de 0 é 0.0
+```
+- Cos (Cosseno):
+```java
+double resu= Math.cos(0);
+System.out.println("cosseno de 0 é "+ resu);
+
+Resultado:
+cosseno de 0 é 1.0
+```
+- Tan (Tangente):
+```java
+double resu= Math.tan(0);
+System.out.println("tangente de 0 é "+ resu);
+
+Resultado:
+tangente de 0 é 0.0
+```
+- Pow (Potência):
+```java
+double potencia= Math.pow(2,3);// 2 elevado à 3
+System.out.println(potencia);
+
+Resultado:
+8
+```
+- Sqrt (Raiz quadrada):
+```java
+double raiz2= Math.sqrt(45);// raiz quadrada de 45
+System.out.println(raiz2);
+
+Resultado:
+6.708203932499369
+```
+- Cbrt (Raiz cubica)
+```java
+double raiz3= Math.cbrt(8);// raiz cubica de 8
+System.out.println(raiz3);
+
+Resultado:
+2
+```
+- Log (Constante de Euler)
+```java
+//Math.E é conhecido como "e" de Euler no caso a constante de Euler
+double logaritmo_natural= Math.log(Math.E);//logaritmo natural de Euler é 1
+System.out.println("logaritmo de Euler na base Euler é "+ logaritmo_natural);
+```
+- floorMod (Resto da divisão entre dois números)
+```java
+float fMod= Math.floorMod(7,5);// aí os numeros podem ser doubles como floats
+System.out.println(fMod);
+
+Resultado:
+2.0
+```
+- ceil (Arredonda para cima um número decimal)
+```java
+double arredondaParaCima= Math.ceil(2.5);// Arredonda para cima
+double arredondaParaBaixo= Math.floor(2.5);// Arredonda para baixo
+System.out.println("para cima "+arredondaParaCima+" para baixo "+arredondaParaBaixo);
+
+Resultado:
+para cima 3.0 para baixo 2.0
+```
